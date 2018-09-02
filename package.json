@@ -1,0 +1,31 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "authentication system and crud operations on notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/server"
+  },
+  "author": "Dishant Sheth <dishant.sheth@hotmail.com>",
+  "repository": "https://github.com/dishant-sheth/TODO-app",
+  "license": "MIT License",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.4",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "swagger-express-middleware": "^1.0.0-alpha.12",
+    "swagger-jsdoc": "^1.9.7",
+    "swagger-ui-express": "^2.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
