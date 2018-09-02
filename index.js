@@ -76,7 +76,6 @@ module.exports.listen = function listen(callback) {
     });
     server.listen(port);
     server.on('error', (error) => {
-      onError(error);
       callback(error);
     });
     server.on('listening', () => {
